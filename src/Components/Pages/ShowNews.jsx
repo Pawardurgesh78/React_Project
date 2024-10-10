@@ -47,7 +47,7 @@ export default function ShowNews() {
       <div>
         {data.slice(0, 5).map((ele, index) => (
           <div key={index}>
-            <div className="py-4 px-10 m-4 flex bg-yellow-200 elements-center shadow-xl hover:bg-sky-200 focus:outline-none  ">
+            <div className="py-4 px-10 m-4 flex bg-yellow-200 elements-center shadow-xl hover:bg-sky-100 focus:outline-none  ">
               <h2 className="text-black p-2 my-2">
                 <span>Date & Time: </span>
                 {format(ele.publishedAt, "MM/dd/yyyy HH:mm")}
